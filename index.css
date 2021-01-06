@@ -91,7 +91,7 @@ body{
     width: 50px;
     height: 119px;
     background-color: white;
-    background-image: url(/car.png);
+    background-image: url(./car.png);
     background-size: cover;
     border-radius: 20px;
     background-size: 52px;

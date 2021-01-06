@@ -1,0 +1,105 @@
+html, body, .game{
+    height: 100% !important;
+    overflow: hidden;
+    font-family: 'Varela Round', sans-serif !important;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3rem;
+    min-width: 300px;
+}
+
+.startScreen{
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: space-between;
+    color: cornsilk;
+    padding: 15px;
+    margin: auto;
+    width: 98%;
+    font-size: 1.3rem;
+    background-image: url(./background_big.png);
+    background-size: cover;
+ }
+
+ .heading{
+     display: flex;
+     justify-content: center;
+     align-items: baseline;
+ }
+
+ .typo{
+     font-size: 1,3rem;
+     font-size: bold;
+ }
+
+ .startScreen button{
+     margin: 0 20px;
+     font-size: 1rem;
+     padding: 8px 16px;
+     border: none;
+     border-radius: 10px;
+     background-color:cornflowerblue;
+     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+     font-family: 'Varela Round', sans-serif
+ }
+
+.gameArea{
+    background-color: black;
+    width: 200px;
+    height: 100% !important;
+    position: relative;
+    margin: 0 auto;
+    padding: 0%;;
+    overflow-y: hidden;
+    z-index: 0;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.hide{
+    display: none;
+}
+
+.line{
+    position: absolute;
+    background-color: white;
+    height: 100px;
+    width: 10px;
+    margin-left: 95px;
+}
+
+.car, .enemy{
+    position: absolute;
+    margin: auto;
+    width: 50px;
+    height: 119px;
+    background-color: white;
+    background-image: url(/car.png);
+    background-size: cover;
+    border-radius: 20px;
+    background-size: 52px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
